@@ -6,15 +6,26 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne={
-  title:  'Article One | Dhairya Gada',
-  heading: 'First Article',
-  date: 'August 15 2017',
-  content: ` <p>
-                Hello Friends this is my first article on this webapp.
-            </p>
-            `
-};
+var articles{
+    articleOne={
+                      title:  'Article One | Dhairya Gada',
+                      heading: 'First Article',
+                      date: 'August 15 2017',
+                      content: ` <p>
+                                    Hello Friends this is my first article on this webapp.
+                                </p>
+                                `
+                };
+    artricleTwo={
+        title:  'Article Twp | Dhairya Gada',
+                      heading: 'Second Article',
+                      date: 'August 15 2017',
+                      content: ` <p>
+                                    Hello Friends this is my second article on this webapp.
+                                </p>
+                                `
+    };
+}  
 
 function createTemplate(data){
 var title=data.title;
