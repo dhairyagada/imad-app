@@ -17,7 +17,7 @@ var articles{
                                 `
                 };
     artricleTwo={
-        title:  'Article Two | Dhairya Gada',
+        title:  'Article Twp | Dhairya Gada',
                       heading: 'Second Article',
                       date: 'August 15 2017',
                       content: ` <p>
